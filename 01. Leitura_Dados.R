@@ -2,10 +2,6 @@
 
 
 # Dados ####
-
-
-  
-  
 library(readr)
 
 nomovariavel <- c("ID","ANO","DIA","HORA","VV_ane","DV_ane","PRP","P_atm","RFA_in","RFA_out","Roc_in","Roc_out",

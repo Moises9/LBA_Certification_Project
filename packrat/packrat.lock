@@ -1,0 +1,113 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.8.1
+RVersion: 3.4.3
+Repos: CRAN=https://cran.rstudio.com/,
+    CRANextra=http://www.stats.ox.ac.uk/pub/RWin
+
+Package: DBI
+Source: CRAN
+Version: 0.8
+
+Package: R6
+Source: CRAN
+Version: 2.2.2
+Hash: b2366cd9d2f3851a5704b4e192b985c2
+
+Package: RPostgreSQL
+Source: CRAN
+Version: 0.6-2
+Requires: DBI
+
+Package: Rcpp
+Source: CRAN
+Version: 0.12.16
+Hash: 8cc9dc88c11acdcf8a6dec4a0f1500bc
+
+Package: codetools
+Source: CRAN
+Version: 0.2-15
+Hash: a4268e48f71dc70ac2203aced7cdd8ea
+
+Package: curl
+Source: CRAN
+Version: 3.2
+
+Package: devtools
+Source: CRAN
+Version: 1.13.5
+Requires: digest, git2r, httr, jsonlite, memoise, rstudioapi, whisker,
+    withr
+
+Package: digest
+Source: CRAN
+Version: 0.6.15
+
+Package: git2r
+Source: CRAN
+Version: 0.21.0
+
+Package: glue
+Source: CRAN
+Version: 1.2.0
+
+Package: httr
+Source: CRAN
+Version: 1.3.1
+Requires: R6, curl, jsonlite, mime, openssl
+
+Package: jsonlite
+Source: CRAN
+Version: 1.5
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+
+Package: memoise
+Source: CRAN
+Version: 1.1.0
+Requires: digest
+
+Package: mime
+Source: CRAN
+Version: 0.5
+
+Package: openssl
+Source: CRAN
+Version: 1.0.1
+
+Package: packrat
+Source: CRAN
+Version: 0.4.8-1
+Hash: 6ad605ba7b4b476d84be6632393f5765
+
+Package: plyr
+Source: CRAN
+Version: 1.8.4
+Requires: Rcpp
+
+Package: pryr
+Source: CRAN
+Version: 0.1.4
+Requires: Rcpp, codetools, stringr
+
+Package: rstudioapi
+Source: CRAN
+Version: 0.7
+
+Package: stringi
+Source: CRAN
+Version: 1.1.7
+
+Package: stringr
+Source: CRAN
+Version: 1.3.0
+Requires: glue, magrittr, stringi
+
+Package: whisker
+Source: CRAN
+Version: 0.3-2
+
+Package: withr
+Source: CRAN
+Version: 2.1.2
